@@ -1,0 +1,42 @@
+body {
+  margin: 0; }
+
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+/*comment */
+nav {
+  background-color: #47a; }
+  nav ul {
+    list-style-type: none; }
+  nav a, nav a label {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em; }
+    nav a:hover, nav a label:hover {
+      background-color: #355e86; }
+    nav a label {
+      text-align: right; }
+  @media screen and (min-width: 30em) {
+    nav nav ul {
+      display: grid;
+      -webkit-grid-template-columns: 1fr 1fr 1fr 1fr;
+      -moz-grid-template-columns: 1fr 1fr 1fr 1fr;
+      -ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+      -o-grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr; }
+      nav nav ul a, nav nav ul a label, nav a nav ul label {
+        text-align: center; } }
+
+body {
+  font-family: sans-serif; }
+
+aside {
+  background-color: #aac4dd; }
+
+footer {
+  background-color: #47a; }
+
+/*# sourceMappingURL=main.css.map */
