@@ -1,0 +1,190 @@
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+header {
+	width: 100%;
+	.logo {
+		margin-left: 5%;
+		width: 12%;
+		height: 5%;
+	}
+}
+.zoek {
+	img {
+		float: right;
+		margin-top: -3.4%;
+		margin-right: 13%;
+		margin-left: 3em;
+	}
+}
+.dropmenu, .dropmenu2 {
+	background-color: white;
+	float: right;
+	margin-top: 1.7%;
+	border: none;
+	color: #509fde;
+	font-size: 16px;
+}
+.dropmenu {
+	margin-right: 15em;
+}
+.dropmenu2 {
+	margin-right: 3em;
+}
+.mensjes {
+	width: 100%;
+	img {
+		width: 100%;
+		height: 25em;
+	}
+	p {
+		position: absolute;
+		margin-top: 8em;
+		color: white;
+		margin-left: 18%;
+		font-size: 18px;
+	}
+	button {
+		padding: 1em;
+		position: absolute;
+		margin-top: 30em;
+		margin-left: 31%;
+		background-color: #509fde;
+		color: white;
+		border: 2px solid white;
+		border-radius: 4px;
+	}
+}
+.Doenwij {
+	text-align: center;
+	button {
+		margin-top: 0.8em;
+		padding: 1em;
+		background-color: #509fde;
+		color: white;
+		border: 2px solid white;
+		border-radius: 4px;
+	}
+	img {
+		float: right;
+		position: absolute;
+		margin-top: -1.5em;
+		margin-left: 0.5em;
+	}
+}
+.blueue {
+	color: #509fde;
+}
+.blueue2 {
+	p {
+		font-size: 9px;
+		color: #509fde;
+	}
+}
+.ipadwin {
+	background: #79b9ee;
+	color: white;
+	padding: 2.7em;
+	button {
+		margin-top: 0.8em;
+		margin-left: 3em;
+		padding: 1em;
+		background-color: #509fde;
+		color: white;
+		border: 2px solid white;
+		border-radius: 4px;
+	}
+	img {
+		margin-left: 32%;
+		margin-top: -6em;
+		position: absolute;
+	}
+}
+.ipadwin h3, {
+	margin-left: 2em;
+}
+.Brilman {
+	float: right;
+	margin-right: 80%;
+	margin-top: -6em;
+	img {
+		margin-bottom: 2em;
+		width: 37%;
+		height: 34%;
+	}
+}
+.contact {
+	text-align: center;
+	position: relative;
+	margin: 2px;
+	img {
+		float: right;
+		margin-top: -5em;
+		margin-left: 40%;
+		position: absolute;
+	}
+	button {
+		margin-top: 0.8em;
+		margin-left: 3em;
+		padding: 1em;
+		background-color: #509fde;
+		color: white;
+		border: 2px solid white;
+		border-radius: 4px;
+	}
+}
+.footer {
+	background-color: #509fde;
+}
+.foot1 {
+	width: 50%;
+	float: left;
+	background-color: #509fde;
+	p {
+		margin-left: 3em;
+		margin-top: 3em;
+		color: white;
+	}
+	img {
+		margin-left: 3em;
+		margin-top: 1em;
+	}
+}
+.foot2 {
+	width: 50%;
+	float: left;
+	background-color: #509fde;
+	text-align: right;
+	color: white;
+	p {
+		margin-right: 1.7em;
+		margin-top: 6.6em;
+	}
+	ul {
+		list-style-type: none;
+		float: right;
+	}
+	li {
+		display: inline;
+		color: white;
+		margin: 1.7em;
+	}
+}
+.vier {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin: 5em;
+	grid-gap: 1.5em;
+}
+.box {
+	img {
+		width: 90%;
+	}
+	h4 {
+		color: #509fde;
+	}
+}
