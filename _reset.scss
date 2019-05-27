@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kop kop" "t1 t2" "t3 t4" "t5 t4" "t6 afb" "t7 afb" "t8 aside" "t9 aside" "t10 aside" "foot foot";
 }
 nav ul {
     margin: 0;

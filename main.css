@@ -1,5 +1,8 @@
 body {
-  margin: 0; }
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "kop kop" "t1 t2" "t3 t4" "t5 t4" "t6 afb" "t7 afb" "t8 aside" "t9 aside" "t10 aside" "foot foot"; }
 
 nav ul {
   margin: 0;
@@ -7,7 +10,8 @@ nav ul {
 
 /*comment */
 nav {
-  background-color: #47a; }
+  background-color: #535353;
+  position: relative; }
   nav ul {
     list-style-type: none; }
   nav a, nav a label {
@@ -16,7 +20,7 @@ nav {
     display: block;
     padding: 0.5em 1em; }
     nav a:hover, nav a label:hover {
-      background-color: #355e86; }
+      background-color: #535353; }
     nav a label {
       text-align: right; }
   @media screen and (min-width: 30em) {
@@ -28,15 +32,116 @@ nav {
       -o-grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr; }
       nav nav ul a, nav nav ul a label, nav a nav ul label {
-        text-align: center; } }
+        text-align: center;
+        margin-left: 5px; } }
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: #fcf1f1; }
 
 aside {
-  background-color: #aac4dd; }
+  background-color: #adadad;
+  grid-area: aside; }
+
+aside a:hover, aside nav a label:hover, nav a aside label:hover {
+  background-color: #c40404;
+  color: white; }
 
 footer {
-  background-color: #47a; }
+  background-color: #535353;
+  grid-area: foot;
+  color: white;
+  text-align: center; }
+
+header {
+  background-color: #535353;
+  grid-area: kop;
+  color: white; }
+
+header h1, p {
+  margin-left: 5px; }
+
+section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-bottom: .2em; }
+
+.nummer {
+  background-color: #c40404;
+  color: white;
+  font-size: 3em;
+  width: 1.2em;
+  text-align: right;
+  padding: .2em; }
+
+section img {
+  max-width: 100%; }
+
+@media screen and (min-width: 760px) {
+  .afb {
+    display: block;
+    background-image: url("images/relation.jpg");
+    background-size: cover;
+    background-position: center center; }
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "kop kop" "t1 t2" "t3 t4" "t5 t4" "t6 afb" "t7 afb" "t8 aside" "t9 aside" "t10 aside" "foot foot"; }
+
+  header {
+    grid-area: kop; }
+
+  .twijfel {
+    grid-area: t1; }
+
+  .jezelf {
+    grid-area: t2; }
+
+  .spontaan {
+    grid-area: t3; }
+
+  .geluk {
+    grid-area: t4; }
+
+  .tijd {
+    grid-area: t5; }
+
+  .mening {
+    grid-area: t6; }
+
+  .doel {
+    grid-area: t7; }
+
+  .wilt {
+    grid-area: t8; }
+
+  .interesse {
+    grid-area: t9; }
+
+  .passie {
+    grid-area: t10; }
+
+  .afb {
+    grid-area: afb; }
+
+  aside {
+    grid-area: aside; }
+
+  footer {
+    grid-area: foot; }
+
+  h1 {
+    font-size: 2.6em; }
+
+  .geluk_article {
+    display: grid;
+    grid-auto-columns: 1fr 1fr; }
+    .geluk_article h3 {
+      grid-column: span 2; } }
+@media screen and (max-width: 1300px) {
+  body {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "kop kop kop" "t1 t2 afb" "t3 t4 afb" "t5 t4 afb" "t6 t6 aside" "t7 t8 aside " "t9 t10 aside" "foot foot aside"; } }
 
 /*# sourceMappingURL=main.css.map */
